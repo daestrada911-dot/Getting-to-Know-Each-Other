@@ -1,131 +1,118 @@
 <!DOCTYPE html>
- <html lang="en">
- <head>
--    <meta charset="UTF-8">
--    <meta name="viewport" content="width=device-width, initial-scale=1.0">
--    <title>About Me - Diego Estrada</title>
--    <style>
--    </style>
-+  <meta charset="UTF-8">
-+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-+  <title>Diego Estrada’s Introductions Website</title>
-+  <style>
-+    body {
-+      font-family: Arial, sans-serif;
-+      background-color: #f4f4f4;
-+      line-height: 1.6;
-+      margin: 0;
-+      padding: 0;
-+    }
-+    .container {
-+      width: 90%;
-+      max-width: 800px;
-+      margin: auto;
-+      padding: 10px;
-+    }
-+      header {
-+        background: #333;
-+        color: #fff;
-+        padding: 20px;
-+        text-align: center;
-+      }
-+      section {
-+        background: #3fb2d1;
-+        padding: 15px;
-+        margin-bottom: 12px;
-+        border-radius: 6px;
-+      }
-+      h1, h2 {
-+        margin-top: 0;
-+      }
-+      footer {
-+        text-align: center;
-+        margin-top: 20px;
-+        color: #555;
-+      }
-+    ul {
-+      list-style-type: square;
-+    }
-+    .profile-pic {
-+      display: block;
-+      margin: 20px auto;
-+      max-width: 100%;
-+      height: auto;
-+    }
-+  </style>
- </head>
- <body>
--    <div class="container">
--        <header>
--            <h1>Diego Estrada</h1>
--            <h2>Preferred Name: Diego</h2>
--        </header>
-+  <div class="container">
-+    <img src="me-800-by-800.jpg" alt="Headshot of Diego Estrada" class="profile-pic">
-+    <header>
-+      <h1>Diego Estrada’s Introductions Website</h1>
-+      <p><a href="mailto:destrada@lewisu.edu">destrada@lewisu.edu</a></p>
-+      <p>Discord: DiegoE#1234</p>
-+    </header>
- 
--        <section>
--            <h2>About My Studies</h2>
--            <p><strong>Year at Lewis:</strong> Sophomore/ First year here</p>
--            <p><strong>Major:</strong> Cybersecurity</p>
--            <p><strong>Why this degree?</strong> I want to build a career in technology while also following a dream of creating innovative ideas like future transportation tech.</p>
--        </section>
-+    <section>
-+      <h2>Introduction</h2>
-+      <p>Hello! My name is Diego Estrada, a sophomore majoring in cybersecurity. I live in Chicago with my family, and we enjoy spending weekends exploring the city together. I’m passionate about technology and always eager to learn something new.</p>
-+    </section>
- 
--        <section>
--            <h2>Why I’m Taking This Course</h2>
--            <p>I’m taking this course because it’s required for my program, but I also believe I’ll enjoy the material and find it valuable.</p>
--        </section>
-+    <section>
-+      <h2>What I Hope to Learn in this Course</h2>
-+      <ul>
-+        <li>Building responsive web pages</li>
-+        <li>Understanding version control with Git</li>
-+        <li>Hosting sites with GitHub Pages</li>
-+      </ul>
-+    </section>
- 
--        <section>
--            <h2>Work Experience</h2>
--            <p>I have several years of experience in the hospitality industry, working as a runner, busser, and server at Gibson’s Steakhouse and other Chicago restaurants, where I developed strong customer service, teamwork, and problem-solving skills. </p>
--        </section>
-+    <section>
-+      <h2>My Favorite Hobby / Activity</h2>
-+      <ul>
-+        <li>Music production – <a href="https://en.wikipedia.org/wiki/Music_production" target="_blank">learn more</a></li>
-+        <li>Exploring new places around the city</li>
-+      </ul>
-+    </section>
- 
--        <section>
--            <h2>Hobbies & Interests</h2>
--            <p> My hobbies include learning music production, exploring new places, staying active, and developing my interest in coding and continuous learning.</p>
--        </section>
--
--        <section>
--            <h2>Fun Fact</h2>
--            <p>I attended welding school and performed well in the program.</p>
--        </section>
--
--        <section>
--            <p>Updated: 9/3/25</p>
--        </section>
--
--    </div>
-+    <section>
-+      <h2>Fun Fact</h2>
-+      <p>I once attended welding school and finished near the top of the class.</p>
-+    </section>
-+    <footer>
-+      <p>Updated: September 14, 2025</p>
-+    </footer>
-+  </div>
- </body>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>About Me — Diego Estrada</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+    }
+    * { box-sizing: border-box; }
+    body {
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, "Helvetica Neue", sans-serif;
+      background-color: #E7F8FE;
+      margin: 0;
+      line-height: 1.6;
+    }
+    .container {
+      width: 90%;
+      max-width: 880px;
+      margin: 0 auto;
+      padding: 12px;
+    }
+    header {
+      background: #333;
+      color: #8FDFFA;
+      padding: 24px 16px;
+      text-align: center;
+      border-radius: 10px;
+    }
+    header img {
+      display: block;
+      margin: 0 auto 16px auto;
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+    header h1, header h2, header p { margin: 6px 0; }
+    section {
+      background: #3fb2d1;
+      color: #062b35;
+      padding: 16px;
+      margin: 14px 0;
+      border-radius: 8px;
+    }
+    section h2 { margin-top: 0; }
+    /* Validate: square list icons for all unordered lists */
+    ul { list-style-type: square; padding-left: 1.25rem; }
+    /* Small helper for link appearance on dark header backgrounds */
+    header a { color: #fff; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <!-- Centered representative image (800 max side) -->
+      <img src="me-800-by-800.jpg" alt="Head-and-shoulders photo of Diego Estrada">
+
+      <!-- Heading section with preferred and last name -->
+      <h1>Estrada</h1>
+      <h2>Preferred Name: Diego</h2>
+
+      <!-- Separate lines for email and Discord -->
+      <p>Email: <a href="mailto:diegoaestrada@lewisu.edu">diegoestrada@lewisu.edu</a></p>
+      <p>Discord: tzyroki</p>
+    </header>
+
+    <!-- “Introduction” sub-heading + paragraph -->
+    <section id="introduction">
+      <h2>“Introduction”</h2>
+      <p>
+        Hi! I’m Diego Estrada. My family’s entrepreneurial spirit and hospitality background taught me hard work, teamwork,
+        and service. I’m majoring in Cybersecurity and exploring a complementary minor that strengthens software and systems
+        skills. I enjoy building things, learning fast, and finding practical ways technology can improve everyday life.
+      </p>
+    </section>
+
+    <!-- “What I Hope to Learn in this Course” with bullets -->
+    <section id="goals">
+      <h2>“What I Hope to Learn in this Course”</h2>
+      <ul>
+        <li>Confident HTML, CSS, and accessible, standards-based page structure.</li>
+        <li>Fundamentals of JavaScript for interactive, user-friendly sites.</li>
+        <li>Version control with Git/GitHub, issues, and pull requests.</li>
+        <li>Deployment with GitHub Pages and basic site troubleshooting.</li>
+      </ul>
+    </section>
+
+    <!-- “My Favorite Hobby / Activity” with list + external link -->
+    <section id="hobby">
+      <h2>“My Favorite Hobby / Activity”</h2>
+      <ul>
+        <li>Music production and sampling in a DAW.</li>
+        <li>Coding small web projects to learn new concepts.</li>
+      </ul>
+      <p>
+        If you’re curious about digital audio workstations, this overview of DAWs is helpful:
+        <a href="https://en.wikipedia.org/wiki/Digital_audio_workstation" target="_blank" rel="noopener noreferrer">
+          Digital Audio Workstation — overview
+        </a>.
+      </p>
+    </section>
+
+    <!-- “Fun Fact” that’s uniquely you -->
+    <section id="fun-fact">
+      <h2>“Fun Fact”</h2>
+      <p>
+        I completed a welding program before diving into Cybersecurity — hands-on precision from welding actually helps
+        me think clearly about system integrity and clean configurations.
+      </p>
+    </section>
+
+    <section>
+      <p>Updated: 2025-09-17</p>
+    </section>
+  </div>
+</body>
 </html>
